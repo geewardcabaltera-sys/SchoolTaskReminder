@@ -1,0 +1,65 @@
+/* ===== GENERAL PAGE STYLING ===== */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    padding: 20px;
+}
+
+/* Page title */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Main container */
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Inputs and buttons */
+input, textarea, select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+/* Buttons */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Task card */
+.task {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 6px solid #007bff;
+    border-radius: 6px;
+}
+
+/* Overdue task */
+.task.overdue {
+    background-color: #ffe5e5;
+    border-left-color: red;
+}
+
+/* Task due soon */
+.task.due-soon {
+    background-color: #fff4cc;
+    border-left-color: orange;
+}

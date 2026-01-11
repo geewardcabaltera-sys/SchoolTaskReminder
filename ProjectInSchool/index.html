@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>School Task Reminder System</title>
+
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>📚 School Task Reminder</h1>
+
+<div class="container">
+
+    <h2>Add / Edit Task</h2>
+
+    <input type="text" id="title" placeholder="Task Title">
+
+    <textarea id="description" placeholder="Task Description"></textarea>
+
+    <select id="type">
+        <option>Assignment</option>
+        <option>Quiz</option>
+        <option>Project</option>
+        <option>Exam</option>
+    </select>
+
+    <input type="datetime-local" id="deadline">
+
+    <button onclick="saveTask()">Save Task</button>
+
+    <hr>
+
+    <h2>Your Tasks</h2>
+    <div id="taskList"></div>
+
+</div>
+
+<!-- Link to external JavaScript file -->
+<script src="script.js"></script>
+
+</body>
+</html>
